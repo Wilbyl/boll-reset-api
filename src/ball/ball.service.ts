@@ -5,7 +5,7 @@ import { Injectable } from '@nestjs/common';
 export class BallService {
   banco = [];
 
-  createUser(data) {
+  createBall(data) {
     this.banco.push(data);
     return this.banco;
   }
